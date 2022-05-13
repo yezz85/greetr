@@ -8,12 +8,12 @@ class TestmoduleServiceProvider extends ServiceProvider
 {
 	public function register()
 	{
-		//
-        include __DIR__.'/routes/routes.php';
+
 	}
 
 	public function boot()
 	{
-		//
+        //
+        $this->loadRoutesFrom(__DIR__.'/routes/routes.php');
 	}
 }
