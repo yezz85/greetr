@@ -1,0 +1,19 @@
+{
+    "name": "yezzdesign/test-module",
+    "description": "Test Module",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yezzdesign\\TestModule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yezz",
+            "email": "yezz.code@schodie.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
